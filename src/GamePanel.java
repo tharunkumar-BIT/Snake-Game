@@ -60,6 +60,9 @@ public class GamePanel extends JPanel implements ActionListener{
 				}
 				else {
 					g.setColor(new Color(45,180,0));
+					
+					// multicolor snake
+//					g.setColor(new Color(random.nextInt(255), random.nextInt(255), random.nextInt(255)));
 					g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
 				}
 			}
